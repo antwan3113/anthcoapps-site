@@ -12,7 +12,7 @@
   <body>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="/">AnthCo Apps</a>
+        <a class="brand" href="/"><span class="brand-dot"></span><strong>AnthCo Apps</strong></a>
         <nav aria-label="Main">
           <a href="/#apps">Apps</a>
           <a href="mailto:anthcoapps@gmail.com">Contact</a>
@@ -20,28 +20,42 @@
       </div>
     </header>
 
-    <main class="wrap">
-      <section class="hero">
-        <div>
-          <p class="eyebrow">AnthCo Apps</p>
-          <h1>Small apps that do one thing well.</h1>
-          <!-- DRAFT mission statement: replace with your own wording. -->
-          <p class="lede">We build focused mobile apps for everyday moments. They're quick to use, work on your device, and don't ask for more of your data than they need.</p>
-        </div>
-      </section>
+    <main>
+      <div class="blobs">
+        <section class="wrap hero">
+          <div>
+            <p class="eyebrow">AnthCo Apps</p>
+            <h1>Small apps that do one thing well.</h1>
+            <!-- DRAFT mission statement: replace with your own wording. -->
+            <p class="lede">We build focused mobile apps for everyday moments. They're quick to use, work on your device, and don't ask for more of your data than they need.</p>
+          </div>
+        </section>
+      </div>
 
-      <section class="section" id="apps">
-        <h2>Our apps</h2>
-        <div class="cards">
-          <a class="card" href="/gutcheck/">
-            <img src="/gutcheck/icon.png" alt="" width="64" height="64">
+      <section class="band paper" id="apps">
+        <div class="wrap">
+          <div class="section-head">
             <div>
-              <h3>The Gut Check</h3>
-              <p>A tip calculator that starts with how the meal felt instead of a percentage.</p>
+              <p class="eyebrow">Our apps</p>
+              <h2>What we're building</h2>
             </div>
-          </a>
-          <div class="card placeholder">
-            <div>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card-top">
+                <img src="/gutcheck/icon.png" alt="" width="64" height="64">
+                <div>
+                  <h3>The Gut Check</h3>
+                  <span class="pill">Coming soon</span>
+                </div>
+              </div>
+              <p>A tip calculator that starts with how the meal felt instead of a percentage.</p>
+              <div class="card-links">
+                <a class="btn" href="/gutcheck/">Learn more</a>
+                <a href="/gutcheck/privacy/">Privacy policy</a>
+              </div>
+            </article>
+            <div class="card placeholder">
               <h3>More on the way</h3>
               <p>New apps will be listed here as they launch.</p>
             </div>
@@ -52,8 +66,28 @@
 
     <footer class="site-footer">
       <div class="wrap">
-        <span>&copy; 2026 AnthCo Apps</span>
-        <a href="mailto:anthcoapps@gmail.com">anthcoapps@gmail.com</a>
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="/"><span class="brand-dot"></span><strong>AnthCo Apps</strong></a>
+            <p>Small, focused mobile apps that respect your privacy.</p>
+          </div>
+          <nav aria-label="Apps">
+            <h2>Apps</h2>
+            <ul>
+              <li><a href="/gutcheck/">The Gut Check</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="mailto:anthcoapps@gmail.com">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-base">
+          <span>&copy; 2026 AnthCo Apps</span>
+          <a href="mailto:anthcoapps@gmail.com">anthcoapps@gmail.com</a>
+        </div>
       </div>
     </footer>
   </body>
